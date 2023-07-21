@@ -6,7 +6,7 @@ The page is a advert for the company Horiseon, the company advert's elements are
 finding the header element, the main body element, the navigation bar element, the side bar, or the footer.
 
 ## Where to find the Page ##
-The page is available at kiedae.github.io/Horiseon-Company-Advert
+https://kiedae.github.io/Horiseon-Company-Advert
 
 ## Where To Find The Repository ##
 https://github.com/kiedae/Horiseon-Company-Advert
