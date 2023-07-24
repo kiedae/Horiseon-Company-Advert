@@ -1,29 +1,30 @@
+/* Universal selector that sets the margin and padding of border box */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* sets the body's background color */
 body {
     background-color: #d9dcd6;
 }
-
+/* changes the headers padding, font-family, text color and background color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* changes the text size and display of the headers h1 text */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* changes the color of "seo" in the header */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* sets the nav bar's top padding, right margin, makes it float right, changes the font family, and font size */
 header nav{
     padding-top: 15px;
     margin-right: 20px;
@@ -31,11 +32,11 @@ header nav{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* changes the list type of the headers nav bar to none so it removes the dots in the list */
 header ul{
     list-style-type: none;
 }
-
+/* changes the list items of the nav bar to inline block so they appear next to eachother */
 header ul li {
     display: inline-block;
     margin-left: 25px;
@@ -45,11 +46,11 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* changes all p elements text font size to 16px */
 p {
     font-size: 16px;
 }
-
+/* this adjusts the elements of the background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* makes everything tagged with class="float-left" follow float:left and changes the right margin to 25px  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* makes everything tagged with class="float-right" follow float:right and changes the left margin to 25px  */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* changes everything with the class="content" to display inline-block, sets this classes left margin to 25px and changes the width of this class to 75% */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* changes the asides dementions, font family, background color and position */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,7 +88,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* benefit-lead through benefit-cost changes the bottom margin of all three sections to 32px and their text color to white */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,7 +103,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* changes the h3 element of benefit-lead through benefit-cost to make text align in the center and the bottom margin to 10px */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -117,7 +118,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* changes the imgs in benefit-lead through benefit-cost to display as a block and sets their max width */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -138,7 +139,7 @@ p {
     max-width: 150px;
     
 }
-
+/* sets dementions search engine optimization changes its font family, text color, and background color */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -147,7 +148,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sets dementions online reputation management changes its font family, text color, and background color */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -156,7 +157,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* sets dementions social media marketing. changes its font family, text color, and background color */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -165,49 +166,49 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* changes the max height of the image in the search engine optimiztion section */
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* changes the max height of the image in the online reputation management section */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* changes the max height of the image in the social media marketing section */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* sets the font size and bottom margin of the h2 element in search engine optimization section */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* sets the font size and bottom margin of the h2 element in online reputation management section */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* sets the font size and bottom margin of the h2 element in social media marketing section*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* changes the dimensions, font family, and text alignment of the footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* changes the footers font size */
 .footer h2 {
     font-size: 20px;
 }
-
+/* makes all section elements stick to the left side of the page */
 section {
     float: left;
 }
-
+/* makes the aside stick to the right side of the page */
 aside {
     float: right;
 }
